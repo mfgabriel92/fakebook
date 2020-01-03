@@ -1,5 +1,6 @@
-import 'package:facebook_clone/screens/home/widgets/share_action_button.dart';
-import 'package:facebook_clone/screens/home/widgets/vertical_separator.dart';
+import 'package:fakebook/screens/home/widgets/round_picture.dart';
+import 'package:fakebook/screens/home/widgets/share_action_button.dart';
+import 'package:fakebook/screens/home/widgets/vertical_separator.dart';
 import 'package:flutter/material.dart';
 
 class NewPost extends StatelessWidget {
@@ -19,9 +20,7 @@ class NewPost extends StatelessWidget {
             ),
             child: Row(
               children: <Widget>[
-                CircleAvatar(
-                  backgroundImage: NetworkImage('https://i.pravatar.cc/100'),
-                ),
+                RoundPicture(backgroundImage: NetworkImage('https://i.pravatar.cc/100')),
                 SizedBox(width: 8.0),
                 Expanded(
                   child: Container(

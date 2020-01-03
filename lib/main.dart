@@ -1,5 +1,5 @@
-import 'package:facebook_clone/screens/home/home.dart';
-import 'package:facebook_clone/screens/home/widgets/round_appbar_button.dart';
+import 'package:fakebook/screens/home/home.dart';
+import 'package:fakebook/screens/home/widgets/round_appbar_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

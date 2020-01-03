@@ -1,5 +1,5 @@
-name: facebook_clone
-description: A new Flutter project.
+name: fakebook
+description: A new Facebook clone project.
 version: 1.0.0+1
 
 environment:

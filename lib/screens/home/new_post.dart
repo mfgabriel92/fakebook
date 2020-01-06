@@ -8,6 +8,7 @@ class NewPost extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
+      margin: EdgeInsets.only(bottom: 8.0),
       child: Column(
         children: <Widget>[
           Container(
@@ -20,14 +21,16 @@ class NewPost extends StatelessWidget {
             ),
             child: Row(
               children: <Widget>[
-                RoundPicture(backgroundImage: NetworkImage('https://i.pravatar.cc/100')),
+                RoundPicture(
+                    backgroundImage: NetworkImage('https://i.pravatar.cc/100')),
                 SizedBox(width: 8.0),
                 Expanded(
                   child: Container(
                     height: 32.0,
                     child: TextField(
                       decoration: InputDecoration(
-                        contentPadding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 20.0),
+                        contentPadding: EdgeInsets.symmetric(
+                            vertical: 8.0, horizontal: 20.0),
                         hintText: 'What\'s on your mind?',
                         hintStyle: TextStyle(color: Colors.black),
                         enabledBorder: OutlineInputBorder(

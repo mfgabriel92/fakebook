@@ -6,7 +6,7 @@ class Stories extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      margin: EdgeInsets.symmetric(vertical: 16.0),
+      margin: EdgeInsets.symmetric(vertical: 8.0),
       padding: EdgeInsets.symmetric(vertical: 16.0),
       height: 250.0,
       child: ListView(

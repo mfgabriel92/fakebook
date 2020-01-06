@@ -1,4 +1,5 @@
 import 'package:fakebook/screens/home/new_post.dart';
+import 'package:fakebook/screens/home/post.dart';
 import 'package:fakebook/screens/home/stories.dart';
 import 'package:flutter/material.dart';
 
@@ -11,6 +12,9 @@ class Home extends StatelessWidget {
           children: <Widget>[
             NewPost(),
             Stories(),
+            Post(),
+            Post(),
+            Post(),
           ],
         ),
       ),
